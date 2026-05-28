@@ -15,4 +15,4 @@ def auto_update(commit):
         print(e)
 
 if __name__ == "__main__":
-    auto_update("Update Nih")
+    auto_update("test Update lagi")
