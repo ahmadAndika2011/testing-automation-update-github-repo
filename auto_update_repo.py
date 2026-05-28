@@ -6,7 +6,7 @@ def auto_update(commit):
         subprocess.run(["git", "add", "."], check=True)
         print("git add success ✔️")
         
-        subprocess.run(["git", "commit", "-m", commit], check=True)
+        subprocess.run(["git", "commit", "-m", f"'{commit}'"], check=True)
         print("git commit success ✔️")
 
         subprocess.run(["git", "push", "-u", "origin", 'main'], check=True)
