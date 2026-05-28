@@ -5,7 +5,7 @@ app = Flask(__name__)
 views = Blueprint("views", __name__)
 @views.route("/")
 def home():
-    return "Home"
+    return "Ubah dulu"
 
 app.register_blueprint(views, url_prefix="/")
 
